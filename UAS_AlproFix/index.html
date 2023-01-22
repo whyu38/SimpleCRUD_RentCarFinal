@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UAS ALPRO 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Rental Mobil</h1>
+    <div class="card1">
+      <form id="addForm" class="form">
+        <label for="unit">Unit:</label>
+        <input type="text" id="unit" name="unit" /><br />
+        <label for="track">Tujuan:</label>
+        <input type="text" id="track" name="track" /><br />
+        <label for="status">Status:</label>
+        <input type="text" id="status" name="status" /><br />
+        <label for="price">Total Harga:</label>
+        <input type="text" id="price" name="price" /><br />
+        <button class="button" type="button" onclick="addData()">Tambah</button>
+      </form>
+    </div>
+    <br />
+    <div class="card2">
+      <table id="dataTable">
+        <tr>
+          <th>No</th>
+          <th>Unit</th>
+          <th>Tujuan</th>
+          <th>Status</th>
+          <th>Total Harga</th>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
